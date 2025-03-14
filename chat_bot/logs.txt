@@ -1,0 +1,148 @@
+2025-03-14 12:36:40,248 - INFO - API Key Loaded Successfully.
+2025-03-14 12:36:40,362 - INFO - Loaded document: dataset/Serri_doc.pdf
+2025-03-14 12:36:42,517 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-03-14 12:36:48,859 - INFO - Loading faiss with AVX2 support.
+2025-03-14 12:36:48,875 - INFO - Successfully loaded faiss with AVX2 support.
+2025-03-14 12:36:48,878 - INFO - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes.
+2025-03-14 12:36:48,879 - INFO - Document successfully stored in vector database.
+2025-03-14 12:36:48,892 - INFO - Training complete. Document stored in vector database.
+2025-03-14 12:37:13,785 - INFO - Received Query: what is serri ai
+2025-03-14 12:37:18,511 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 12:37:18,524 - INFO - Generated Response: Serri AI is a platform that provides infrastructure and an interface to train AI agents for enterprise intelligence and execution use cases. It integrates with existing sales, marketing, and support systems to automate end-to-end marketing and sales workflows through channels like WhatsApp. Serri AI aims to supercharge B2C businesses by streamlining processes such as lead generation, qualification, payment collection, and post-sales engagement, thereby enhancing the customer journey. Its mission is to empower SMEs in emerging markets by providing affordable, enterprise-grade growth tools, aiming to democratize AI-driven growth for businesses worldwide.
+2025-03-14 12:37:18,524 - INFO - Evaluating response for query: what is serri ai
+2025-03-14 12:37:18,536 - INFO - 
+LiteLLM completion() model= gpt-4-turbo; provider = openai
+2025-03-14 12:37:21,787 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 12:37:21,792 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-14 12:37:21,822 - INFO - Evaluation Feedback: Evaluation_Result: RATING
+2025-03-14 12:37:21,822 - INFO - Feedback: good
+2025-03-14 12:37:21,822 - INFO - Response is acceptable. Returning final response.
+2025-03-14 12:37:21,822 - INFO - Final Response: Serri AI is a platform that provides infrastructure and an interface to train AI agents for enterprise intelligence and execution use cases. It integrates with existing sales, marketing, and support systems to automate end-to-end marketing and sales workflows through channels like WhatsApp. Serri AI aims to supercharge B2C businesses by streamlining processes such as lead generation, qualification, payment collection, and post-sales engagement, thereby enhancing the customer journey. Its mission is to empower SMEs in emerging markets by providing affordable, enterprise-grade growth tools, aiming to democratize AI-driven growth for businesses worldwide.
+2025-03-14 12:37:56,106 - INFO - Received Query: what are the key feature and benefits
+2025-03-14 12:38:01,418 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 12:38:01,420 - INFO - Generated Response: Key features and benefits of IVR (Interactive Voice Response) and OBD (Outbound Dialing) include:
+
+1. **Cost Savings**: Reduces manual effort and operational costs significantly.
+2. **Scalability**: Capable of handling thousands of calls simultaneously, which is especially beneficial during high-volume periods.
+3. **24/7 Availability**: Ensures that customer service is available outside of standard business hours, which enhances customer satisfaction.
+4. **Data Insights**: Offers detailed analytics on call patterns, durations, outcomes, and customer preferences, which can help in optimizing communication strategies.
+
+These features enable efficient lead generation, streamlined customer support, and effective management of promotional campaigns, surveys, and reminders, thus enhancing overall business operations and customer engagement.
+2025-03-14 12:38:01,420 - INFO - Evaluating response for query: what are the key feature and benefits
+2025-03-14 12:38:01,423 - WARNING - Overriding of current TracerProvider is not allowed
+2025-03-14 12:38:01,456 - INFO - 
+LiteLLM completion() model= gpt-4-turbo; provider = openai
+2025-03-14 12:38:02,952 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 12:38:02,954 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-14 12:38:02,963 - INFO - Evaluation Feedback: Evaluation_Result: RATING
+2025-03-14 12:38:02,964 - INFO - Feedback: too vague
+2025-03-14 12:38:02,964 - INFO - Adjusting response by adding more context.
+2025-03-14 12:38:09,379 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 12:38:09,382 - INFO - New Adjusted Response: The key features and benefits of IVR (Interactive Voice Response) and OBD (Outbound Dialing) systems include:
+
+1. **Cost Savings:** Reduces manual effort and operational costs by automating customer interactions and routine tasks.
+
+2. **Scalability:** Capable of handling thousands of calls simultaneously, which is beneficial for handling high call volumes without the need for additional staffing.
+
+3. **24/7 Availability:** Offers round-the-clock service, ensuring that customer support and engagement are available outside of standard business hours.
+
+4. **Data Insights:** Provides valuable analytics on call patterns and customer behavior, helping businesses optimize their communication strategies and improve service quality.
+
+Additionally, these systems enhance customer engagement through automated reminders and notifications, improve efficiency in lead management by pre-qualifying leads, and aid in operational activities like appointment scheduling and payment reminders.
+2025-03-14 12:38:09,383 - INFO - Feedback: good
+2025-03-14 12:38:09,383 - INFO - Response is acceptable. Returning final response.
+2025-03-14 12:38:09,383 - INFO - Final Response: The key features and benefits of IVR (Interactive Voice Response) and OBD (Outbound Dialing) systems include:
+
+1. **Cost Savings:** Reduces manual effort and operational costs by automating customer interactions and routine tasks.
+
+2. **Scalability:** Capable of handling thousands of calls simultaneously, which is beneficial for handling high call volumes without the need for additional staffing.
+
+3. **24/7 Availability:** Offers round-the-clock service, ensuring that customer support and engagement are available outside of standard business hours.
+
+4. **Data Insights:** Provides valuable analytics on call patterns and customer behavior, helping businesses optimize their communication strategies and improve service quality.
+
+Additionally, these systems enhance customer engagement through automated reminders and notifications, improve efficiency in lead management by pre-qualifying leads, and aid in operational activities like appointment scheduling and payment reminders.
+2025-03-14 12:38:18,833 - INFO - Received Query: what is the target market
+2025-03-14 12:38:22,204 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 12:38:22,207 - INFO - Generated Response: The target market for Serri AI includes B2C businesses in emerging markets that are looking to leverage the power of WhatsApp and AI to accelerate their growth. This includes businesses in various industries such as e-commerce, retail, education, healthcare, and more.
+2025-03-14 12:38:22,207 - INFO - Evaluating response for query: what is the target market
+2025-03-14 12:38:22,210 - WARNING - Overriding of current TracerProvider is not allowed
+2025-03-14 12:38:22,220 - INFO - 
+LiteLLM completion() model= gpt-4-turbo; provider = openai
+2025-03-14 12:38:23,742 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 12:38:23,745 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-14 12:38:23,776 - INFO - Evaluation Feedback: Evaluation_Result: RATING
+2025-03-14 12:38:23,776 - INFO - Feedback: too vague
+2025-03-14 12:38:23,776 - INFO - Adjusting response by adding more context.
+2025-03-14 12:38:31,114 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 12:38:31,117 - INFO - New Adjusted Response: The target market for Serri AI is B2C businesses in emerging markets, including small and medium-sized enterprises (SMEs) in industries such as e-commerce, retail, education, and healthcare, which are looking to leverage WhatsApp and AI for accelerated growth.
+2025-03-14 12:38:31,117 - INFO - Feedback: good
+2025-03-14 12:38:31,117 - INFO - Response is acceptable. Returning final response.
+2025-03-14 12:38:31,117 - INFO - Final Response: The target market for Serri AI is B2C businesses in emerging markets, including small and medium-sized enterprises (SMEs) in industries such as e-commerce, retail, education, and healthcare, which are looking to leverage WhatsApp and AI for accelerated growth.
+2025-03-14 12:38:37,636 - INFO - Received Query: what are the use cases
+2025-03-14 12:38:51,312 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 12:38:51,327 - INFO - Generated Response: The use cases for IVR (Interactive Voice Response) and OBD (Outbound Dialing) include:
+
+1. **Sales & Marketing:**
+   - **Lead Generation & Qualification:** IVR can pre-qualify leads by asking key questions before routing them to a live agent. OBD can reach out to potential customers with promotional messages and offers.
+   - **Promotional Campaigns:** Businesses can use OBD for discount alerts, seasonal offers, and event invitations, while IVR can engage customers with interactive menus for product inquiries.
+   - **Automated Surveys & Feedback Collection:** IVR can collect feedback after a customer interaction, and OBD can automate feedback calls post-purchase.
+
+2. **Customer Support & Engagement:**
+   - **24/7 Self-Service Customer Support:** IVR allows customers to access information like account details, FAQs, and troubleshooting steps without agent intervention.
+   - **Appointment Scheduling & Reminders:** IVR can schedule and confirm appointments, and OBD can send automated reminders to reduce no-shows.
+   - **Billing & Payment Reminders:** IVR enables bill inquiries and payment processing, and OBD automates payment due date reminders and collection calls.
+
+3. **Operations & Internal Communication:**
+   - **Employee Communication:** HR can use IVR for leave requests and internal announcements, and OBD can send emergency alerts to employees.
+   - **Supply Chain & Vendor Management:** IVR enables order tracking and vendor queries, while OBD can provide automated inventory alerts.
+2025-03-14 12:38:51,327 - INFO - Evaluating response for query: what are the use cases
+2025-03-14 12:38:51,330 - WARNING - Overriding of current TracerProvider is not allowed
+2025-03-14 12:38:51,342 - INFO - 
+LiteLLM completion() model= gpt-4-turbo; provider = openai
+2025-03-14 12:38:52,720 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 12:38:52,722 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-14 12:38:52,732 - INFO - Evaluation Feedback: Evaluation_Result: RATING
+2025-03-14 12:38:52,733 - INFO - Feedback: good
+2025-03-14 12:38:52,733 - INFO - Response is acceptable. Returning final response.
+2025-03-14 12:38:52,733 - INFO - Final Response: The use cases for IVR (Interactive Voice Response) and OBD (Outbound Dialing) include:
+
+1. **Sales & Marketing:**
+   - **Lead Generation & Qualification:** IVR can pre-qualify leads by asking key questions before routing them to a live agent. OBD can reach out to potential customers with promotional messages and offers.
+   - **Promotional Campaigns:** Businesses can use OBD for discount alerts, seasonal offers, and event invitations, while IVR can engage customers with interactive menus for product inquiries.
+   - **Automated Surveys & Feedback Collection:** IVR can collect feedback after a customer interaction, and OBD can automate feedback calls post-purchase.
+
+2. **Customer Support & Engagement:**
+   - **24/7 Self-Service Customer Support:** IVR allows customers to access information like account details, FAQs, and troubleshooting steps without agent intervention.
+   - **Appointment Scheduling & Reminders:** IVR can schedule and confirm appointments, and OBD can send automated reminders to reduce no-shows.
+   - **Billing & Payment Reminders:** IVR enables bill inquiries and payment processing, and OBD automates payment due date reminders and collection calls.
+
+3. **Operations & Internal Communication:**
+   - **Employee Communication:** HR can use IVR for leave requests and internal announcements, and OBD can send emergency alerts to employees.
+   - **Supply Chain & Vendor Management:** IVR enables order tracking and vendor queries, while OBD can provide automated inventory alerts.
+2025-03-14 12:39:11,792 - INFO - Received Query: what is Click-to-WhatsApp Ads (CTWA)
+2025-03-14 12:39:19,347 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 12:39:19,349 - INFO - Generated Response: Click-to-WhatsApp Ads (CTWA) are a type of digital advertisement where users click on ads displayed on platforms like Facebook, Instagram, and Google, and are directly redirected to a WhatsApp chat instead of a traditional landing page. This seamless transition allows the immediate capture of essential user information like their name, phone number, and any relevant metadata from the ad. The integration of CTWA offers benefits such as significantly increased click-through rates, reduced cost per lead, enhanced trust and credibility through Meta-verified badges, personalized and immediate user engagement, streamlined lead generation, improved customer experience, and enhanced ad performance, ultimately providing a competitive advantage by offering a more engaging and user-friendly ad experience.
+2025-03-14 12:39:19,350 - INFO - Evaluating response for query: what is Click-to-WhatsApp Ads (CTWA)
+2025-03-14 12:39:19,353 - WARNING - Overriding of current TracerProvider is not allowed
+2025-03-14 12:39:19,362 - INFO - 
+LiteLLM completion() model= gpt-4-turbo; provider = openai
+2025-03-14 12:39:20,574 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 12:39:20,577 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-14 12:39:20,588 - INFO - Evaluation Feedback: Evaluation_Result: RATING
+2025-03-14 12:39:20,589 - INFO - Feedback: good
+2025-03-14 12:39:20,589 - INFO - Response is acceptable. Returning final response.
+2025-03-14 12:39:20,589 - INFO - Final Response: Click-to-WhatsApp Ads (CTWA) are a type of digital advertisement where users click on ads displayed on platforms like Facebook, Instagram, and Google, and are directly redirected to a WhatsApp chat instead of a traditional landing page. This seamless transition allows the immediate capture of essential user information like their name, phone number, and any relevant metadata from the ad. The integration of CTWA offers benefits such as significantly increased click-through rates, reduced cost per lead, enhanced trust and credibility through Meta-verified badges, personalized and immediate user engagement, streamlined lead generation, improved customer experience, and enhanced ad performance, ultimately providing a competitive advantage by offering a more engaging and user-friendly ad experience.
+2025-03-14 12:39:32,945 - INFO - Received Query: what is WhatsApp Pay Integration
+2025-03-14 12:39:35,934 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 12:39:35,936 - INFO - Generated Response: WhatsApp Pay integration refers to the ability to conduct financial transactions such as sending and receiving payments directly through the WhatsApp platform. This integration enables users to link their bank accounts with WhatsApp and use it for peer-to-peer payment transactions within their WhatsApp chats, enhancing the convenience and usability of the app for financial interactions. This feature leverages the Unified Payments Interface (UPI) framework, which allows for instant money transfers and payments across different banks in supported regions.
+2025-03-14 12:39:35,936 - INFO - Evaluating response for query: what is WhatsApp Pay Integration
+2025-03-14 12:39:35,938 - WARNING - Overriding of current TracerProvider is not allowed
+2025-03-14 12:39:35,948 - INFO - 
+LiteLLM completion() model= gpt-4-turbo; provider = openai
+2025-03-14 12:39:37,141 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-14 12:39:37,143 - INFO - Wrapper: Completed Call, calling success_handler
+2025-03-14 12:39:37,150 - INFO - Evaluation Feedback: Evaluation_Result: RATING
+2025-03-14 12:39:37,150 - INFO - Feedback: good
+2025-03-14 12:39:37,150 - INFO - Response is acceptable. Returning final response.
+2025-03-14 12:39:37,150 - INFO - Final Response: WhatsApp Pay integration refers to the ability to conduct financial transactions such as sending and receiving payments directly through the WhatsApp platform. This integration enables users to link their bank accounts with WhatsApp and use it for peer-to-peer payment transactions within their WhatsApp chats, enhancing the convenience and usability of the app for financial interactions. This feature leverages the Unified Payments Interface (UPI) framework, which allows for instant money transfers and payments across different banks in supported regions.
